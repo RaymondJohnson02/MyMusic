@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #28243D;
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    height: 11vh;
+    background-color: #3D3759;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+.title{
+    color: white;
+    margin: 0;
+    padding-bottom: 2vh;
+    font-size: 1.5em;
+}
+
+.text{
+    color: #C1C2C4;
+}
+
+a{
+    color: #F7A701;
+    text-decoration: none;
+}
+
+.form-input{
+    margin: 3vh 0;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 0;
+}
+
+.container{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form{
+    width: 30vw;
+    background-color: #312D4B;
+    border-radius: 5px;
+    padding : 3%;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-align-center{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    border-bottom: 1px solid #C1C2C4;
+    width: 100%;
+    line-height: 0.1em;
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+    background-color: #312D4B;
+    padding: 0 2vw;
+}
+
+.button{
+    width: 100%;
+    border: none;
+    padding: 2vh 0;
+    border-radius: 5px;
+}
+
+.submit-button{
+    background-color: #F7A701;
+    color: white;
+}
+
+.google-button{
+    background-color: white;
+    color: #F7A701;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #C1C2C4;
+    padding: 2vh 0;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1em;
+}
+
+.input-text::placeholder{
+    color: #C1C2C4;
+}
+
+.input-text:focus{
+    outline: none;
+}
+
+.checkbox{
+    accent-color: #F7A701;
+    border: none;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.button-icon{
+    margin-right: 1vw;
+}
+
+@media all and (max-width:800px) {
+    nav{
+        justify-content: center;
+    }
+
+    .login-form{
+        width: 90vw;
+        padding : 10%;
+    }
+}
